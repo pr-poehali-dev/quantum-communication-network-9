@@ -4,10 +4,11 @@ import Projects from "./Projects"
 import Services from "./Services"
 import Faq from "./Faq"
 import CallToAction from "./CallToAction"
+import OrderForm from "./OrderForm"
 import Footer from "./Footer"
 import type { LandingPageProps } from "./types"
 
-export { Header, Hero, Projects, Services, Faq, CallToAction, Footer }
+export { Header, Hero, Projects, Services, Faq, CallToAction, OrderForm, Footer }
 
 export default function LandingPage({ showHeader = true, showFooter = true }: LandingPageProps) {
   return (
@@ -18,7 +19,7 @@ export default function LandingPage({ showHeader = true, showFooter = true }: La
         <Projects />
         <Services />
         <Faq />
-        <CallToAction />
+        <OrderForm />
       </div>
       {showFooter && <Footer />}
     </main>
