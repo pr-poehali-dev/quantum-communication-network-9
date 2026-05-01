@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="flex flex-col items-center text-center">
         <a href="#" className="flex items-center justify-center mb-4">
           <span className="text-2xl font-bold text-black dark:text-white">
-            CSS<span className="text-[#7A7FEE]">Hub</span>
+            Swype<span className="text-[#7A7FEE]">Core</span>
           </span>
         </a>
         <p className="text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto mb-8">
@@ -22,7 +22,7 @@ export default function Footer() {
         </p>
 
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {new Date().getFullYear()} CSSHub. Все права защищены.
+          {new Date().getFullYear()} SwypeCore. Все права защищены.
         </p>
       </div>
     </footer>
