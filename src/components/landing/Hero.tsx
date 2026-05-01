@@ -6,12 +6,12 @@ export default function Hero() {
       <div className="p-8 md:p-10 lg:p-12 flex flex-col md:flex-row items-start">
         <div className="w-full md:w-3/5 z-10">
           <h1 className="text-black dark:text-white text-4xl md:text-5xl lg:text-6xl font-medium leading-tight">
-            Ваш AI-партнер
-            <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">в разработке</span>
-            проектов
+            Серверы CS:S
+            <span className="block text-[#7A7FEE] dark:text-[#7A7FEE]">под ключ</span>
+            и сайты-визитки
           </h1>
           <p className="my-6 text-sm md:text-base max-w-md text-gray-700 dark:text-gray-300">
-            Мы создаем качественные масштабируемые платформы — клиентские порталы, маркетплейсы, AI-автоматизации и SaaS — используя лучшие инструменты без компромиссов.
+            Настройка и администрирование серверов Counter-Strike Source, установка веб-панелей SourceBans, MaterialAdmin, Level Ranks, GameCMS — а также разработка и исправление сайтов-визиток.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <ContactFormButton />
